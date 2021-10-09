@@ -2,58 +2,104 @@ Beginning of master local plant list
 
 continuously reoccuring 
 
+
+1.<img src=" images/Perennials-who-like-sun/bluestar.jpeg width="100" height="60">
+<h5>Bluestar!</h5>
+<p>Scientific name is Am. tabernaemontana, likes full to partial sun. Grows around three feet.</p>
+<small>Butterfly's favor this plant!</small>
+
+2.<img src="images/Perennials-who-like-sun/butterfly-weed.jpg width="100" height="60">
+<h5>Butterfly Weed!</h5>
+<p>Scientific name is Asclepias Tuberosa, likes full sun. Will grow 1-2 feet.</p>
+<small>Butterfly's favor this plant!</small>
+
+3.<img src="images/Perennials-who-like-sun/Aster.jpg width="100" height="60">
+<h5>Aster!</h5>
+<p> Scientific name is Aster Tataricus. Likes partial sun, will grow 1-5 feet.</p>
+<small> Will grow in low nitrogen soil and it attracts butterflies!</small>
+
+4.<img src="images/Perennials-who-like-sun/tickseed.jpg width="100" height="60">
+<h5>Tickseed!</h5>
+<p>Scientific name is Coreopsis. Likes full to partial sun, there are multiple varieties with different ranges of growth.</p>
+<small>A+ from pollinators!</small>
+
+5.<img src="images/Perennials-who-like-sun/purple-coneflower.jpg" width="100" height="100">
+<h5> Purple Coneflower!</h5>
+<p> Scientific name is Echinacea purpurea. Likes full sun, will grow to be 3-5 feet.</p>
+<small> Our pollinatiors like these!</small>
+
+6.<img src="images/Perennials-who-like-sun/joe-pye-weed.jpg" width="100" height="100">
+<h5>Joe-Pye-Weed</h5>
+<p>Scientific name is Eupatorium spp. Likes full sun, will grow to be 5-9 feet.</p>
+<small>Attracts butterflies!</small>
+
+7.<img src="images/Perennials-who-like-sun/purple-headed-sneezeweed" width="100" height="60">
+<h5>Purple-headed Sneezeweed!</h5>
+<p>Scientific name is Helenium flexuosum. Likes full sun, will grow to be 1-4 feet.</p>
+<small>Attracts bees and butterflies!</small>
+
+8. <img src="images/Perennials-who-like-sun/swamp-sunflower.jpeg" width="100" height="60">
+<h5>Swamp Sunflower!</h5>
+<p>Scientific name is Helianth. angustifolius. Likes full sun, will grow to be 5-7 feet.</h5>
+<small>Good for pollinators!</small>
+
+9. <img src="images/Perennials-who-like-sun/blazing-star.jpg" width="100" height="60">
+<h5> Blazing Star</h5>
+<p>Scientific name is Liatris spp. Likes full sun and will grow to be 2-5 feet.</p>
+<small>Hummingbirds and other pollinators like this one!</small>
+
+10.<img src="images/Perennials-who-like-sun/wild-bergamot.jpg" width="100" height="60">
+<h5>Wild Bergamot!</h5>
+<p>Scientific name is Monarda fistulosa. Likes full to partial sun, will grow 2-5 feet.</p>
+<small>Pollinators enjoy this one, but so do wasps!</small>
+
+11.<img src="images/Perennials-who-like-sun/White-beard-tongue.jpg" width="100" height="60">
+<h5>White beard-tongue!</h5>
+<p>Scientific name is Penstemon digitalis. Likes full sun, will grow to be 3-4 feet.</p>
+<small>Bees like this one!</small>
+
+12.<img src="images/Perennials-who-like-sun/summer-phlox.jpg" width="100" height="60">
+<h5>Summer Phlox!</h5>
+<p>Scientific name is Phlox paniculata. Likes full to partial sun, will grow 2-4 feet.</p>
+<small>Pollinator friendly!</small>
+
+13.<img src="images/Perennials-who-like-sun/silver-leaf-mtn-mint.jpeg" width="100" height="60">
+<h5>Silver Leaf Mountain Mint!</h5>
+<p>Scientific name is Pycnanthemum incanum. Likes full sun, will grow to be 2-4 feet.</p>
+<small>This plant can be used medicinally!</small>
+
+14. <img src="images/Perennials-who-like-sun/black-eyed-susan.jpg" width="100" height="60">
+<h5>Black-eyed Susan!</h5>
+<p>Scientific name is Rudbeckia fulgida. Likes full sun, will grow to be 2-3 feet.</p>
+<small>Honeybees and butterflies like this plant!</small>
+
+15. <img src="images/Perennials-who-like-sun/wrinkle-leaf-goldenrod.jpeg" width="100" height="60">
+<h5>Wrinkle-leaf Goldenrod!</h5>
+<p>Scientific name is Solidago rugosa. Likes full sun, will grow to be 3-7 feet.</p>
+<small>Highly sought after by pollinators!</small>
+
+16.<img src="images/Perennials-who-like-sun/ironweed.jpg" width="100" height="60">
+<h5>Ironweed!</h5>
+<p>Scientific name is Vernonia gigantea. Likes full sun, will grow to be roughly 7 feet.</p>
+<small>Moderately attractive to bees</small>
+
+
+
+
 Perennials - Sun	 	 	 	 	 
  	Common Name	Scientific Name	Sun	Moist.	Height
      Comments	 
- 	
-Bluestar
-Butterfly Weed
-Aster
-Tickseed
-Purple Coneflower
-Joe-Pye-Weed
-Purple-hd. Sneezeweed
-Swamp Sunflower
-Blazing Star
-Wild Bergamot
-White Beard-tongue
-Summer Phlox
-Silverleaf Mtn. Mint
-Black-eyed Susan
+
 Wrinkle-leaf goldenrod
 Ironweed
 
-Am. tabernaemontana
-Asclepias tuberosa
-Aster spp.
-Coreopsis spp.
-Echinacea purpurea
-Eupatorium spp.
-Helenium flexuosum
-Helianth. angustifolius
-Liatris spp.
-Monarda fistulosa
-Penstemon digitalis
-Phlox paniculata
-Pycnanthemum incanum
-Rudbeckia fulgida
+
 Solidago rugosa
 Vernonia gigantea
 
-F-P
-F
-P-S
-F-P
-F
-F
-F
-F
-F
-F-P
-F
-F-P
-F
-F
+
+
+
 F
 F
 
@@ -74,20 +120,7 @@ A
 W-D
 W-A
 
-3'
-1-2'
-1-5'
-Var.
-3-5'
-5-9'
-1-4'
-5-7'
-2-5'
-3-4'
-3+'
-2-4'
-2-4'
-2-3'
+
 3-7'
 7'
 
@@ -140,4 +173,9 @@ turnips
 blueberries 
 blackberries
 elderberries 
+
+
+<div class="flex-box">
+<img>
+
 
