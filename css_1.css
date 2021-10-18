@@ -1,11 +1,4 @@
-body {
-    background-image: url('images/seedlings.jpg');
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-size: 100% 100%
-  }
-
+/*Header*/  
   .header{
   overflow: hidden;
   background-color: #B2AC88;
@@ -47,3 +40,12 @@ body {
     background-color:#B2AC88;
     color:black;
   }
+
+  /*daily gallery, scroll*/
+  .daily_gallery img{
+    margin-right: 15px;
+
+  }
+  .container::-webkit-scrollbar {    display: none;}
+
+  .daily_gallery {   display: flex;   align-items: center;   height: 100vh;}
