@@ -12,19 +12,37 @@ body, .main_header, section, footer{
 } 
 
 .nav_li{
+  border: 1px solid;
   list-style-type: none;
-  
+  margin: auto;
+  padding: 25px;
+  display: flex;
+
 }
 
 .nav_li a{
   text-decoration: none;
-  color: #ffffff;
+   color: whitesmoke;
+flex:0;
+padding-right:20px;
+}
+
+
+.searchbox{
+  display: flex;
+  flex:0;
+  border: 1px solid whitesmoke;
+  padding: 50px;
+  justify-content: end;
+  
 }
 
 .logo_container{
+  display: flex;
     background: #BAB86C;
     height: 75px;
     width: 75px;
+    padding-right: 25px;
 }
 
 .Hero_image{
@@ -36,7 +54,7 @@ body, .main_header, section, footer{
 
 }
 
-.daily_carousel{
+.carousel_container{
   border: 1px solid black;
   padding: 15px;
   height:auto;
@@ -56,9 +74,13 @@ body, .main_header, section, footer{
 
 /* carousel */
 
-.carousel_wrap{
+/* .carousel_wrapper{
   overflow: hidden;
   width: 90%;
+  box-sizing:border-box;
+}
+
+.carousel_wrapper *{
   box-sizing:border-box;
 }
 
@@ -90,15 +112,15 @@ body, .main_header, section, footer{
   z-index: 800;
 }
 /* move items to left */
-.carousel_container.prev{
-  transform: translateX(-100%);}
+/* .carousel_container.prev{
+  transform: translateX(-100%);} */
 /* Translate next item to the right */
-.carousel__photo.next {
+/* .carousel__photo.next {
   transform: translateX(100%);
-}
+} */
 
  /* Style navigation buttons to sit in the middle, either side of the carousel. */
-.carousel__button--prev,
+/* .carousel__button--prev,
 .carousel__button--next {
   position: absolute;
   top:50%;
@@ -108,10 +130,10 @@ body, .main_header, section, footer{
   transform: translateY(-50%);
   border-radius: 50%;
   cursor: pointer; 
-  z-index: 1001; /* Sit on top of everything */
-  border:1px solid black;
-  transition:opacity 1s;
-}
+  z-index: 1001;  Sit on top of everything 
+  border: 1px solid black;
+  
+}*/
 
 .carousel__button--prev {
   left:0;
@@ -137,12 +159,12 @@ body, .main_header, section, footer{
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg);
-}
+} 
 /* carousel */
 
+@media only screen and (max-width: 468px){
 
-@media only screen and (max-width: 600px){
-  body, .main_header, section, footer
+  body, section, footer 
   {
     margin: 0px;
     display: flex;
@@ -158,10 +180,33 @@ body, .main_header, section, footer{
     align-items: center; 
 
   }*/
-  .main_header{
+   .main_header{
     background: #BAB86C;
     width: 100%;
   }
+  .nav_li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #778a66;
+    border: 1px solid black;
+
+  }
+ li a{
+ 
+   display: block;
+   color: whitesmoke;
+   padding: 8px 16px;
+   text-decoration: none;
+ }
+
+ li a:hover{
+   background: #BAB86C;
+   color: #C57B57;
+
+
+ }
   .footer{
     background: #172815;
     width: 100%;
@@ -176,6 +221,16 @@ body, .main_header, section, footer{
     display: flex;
     flex-direction: column;
     
+    
+  }
+  .nav_li{
+    flex-wrap:wrap
+  }
+  .nav_li{
+    flex: 1 1 50%;
+  }
+  .searchbox{
+    flex: 1 1 33.33%;
     
   }
 
