@@ -8,15 +8,19 @@
     <title>Bring on the Bees!</title>
 </head>
 <style>
- 
+
+
+
   
  
-</style>
-<body class= "flex_container">
+</style> 
+
+<body id = "flex_container">
   <!--Nav bar-->
 
-   <div class="main_header" > <header> 
-       <nav class= "nav_li">
+   <section id="main_header" > <header> 
+       <nav id= "nav_li">
+         <ul>
        
        
                     <li><img src=images/logo1.png height:100px width:100px/></li>
@@ -26,9 +30,9 @@
                     <li> <a href="">Butterfly Gardens</a></li>
                     <li> <a href="">Maintaining</a></li>
                     <li><input type="search" class="searchbox" placeholder="Search References" /></li>
-                  </nav></div>
+                  </ul></nav>
 
-               </header>
+               </header></section>
 
     <!--Nav bar-->
     
@@ -50,9 +54,9 @@
 
 
     <!--Hero Image-->
-    <section class="Hero_image">
-    <img src= "images/isaac.jpg" width="400" height="420">
-    <div class="Mission_statement"><p>
+    <section id="Mission_statement">
+    <img id="Hero_image" src= "images/isaac.jpg" width="400" height="420">
+    <p>
       So, my name is Sabrina, and I'm on a mission to educate while learning something new myself. My hopes with this is
       to let people really get in to the free thinking idea of trying something new, educating themselves, making an impact,
       and taking a leap. 
@@ -63,7 +67,7 @@
         beautifications. Creating a family environment for encouraging real world learning and getting our children involved and informed!
 
          Save the bees! 
-    </p></div>
+    </p>
   </section>    
 
 
@@ -85,7 +89,7 @@
  mission statement-->
 
  <!--Gallery quick tips and plants of the day-->
- <section>
+ <section id="quick_tips ">
    <div class="carousel_wrapper">
      <div class= "carousel">
 
@@ -137,16 +141,51 @@
 </div>
 
 </section>
+<section id="pollinators">
+  <h2>Meet our pollinators!</h2>
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      <img class="carousel__photo initial" src="images/bee.jpg" >
+      <img class="carousel__photo" src="images/bat.jpg">
+      <img class="carousel__photo" src="images/butterflydrinking.jpg">
+      <img class="carousel__photo" src="images/moth.jpg">
+      <img class="carousel__photo" src="images/ladybug.jpg">
+        
+      <div class="carousel__button--next"></div>
+      <div class="carousel__button--prev"></div>
+    </div>
+  </div>
 
-</body>
-</html>
+  <h3>Why are pollinators important?</h3>
+  <p>
+    Pollinators are responsible for majority of our food production as well as maintain our ecosystems by helping our plants reproduce!
+  </p>
+  <h3>Who are our pollinators?
+  </h3>
+  <p>
+    Our most common pollinators are bees, birds, butterflies, and bats. But we also have pollinators such as ants, beetles, flies, and moths.
+  </p>
+  <h3>
+    Mission to help our pollinators!
+  </h3>
+  <p>
+    We have to help our natural pollinators in order to get them to help us out! They're resources are steadily declining with the development of urban areas and the strong use of pesticides, 
+    most areas are also low on
+    the food map, creating really dire food deserts, making it difficult for those in low-income situations to have steady and reliable sources 
+    of food. So let's combat the growing food deserts by teaching our communitites how to feed our pollinators and how to feed themselves! 
+    Most urban areas have at least a small area with natural lighting and fresh air. So let's do our part and get involved with our ecosystem
+    and help our pollinators out and create more sustainable lifestyles for ourselves and our families.
+  </p>
+
+</section>
 <!-- link to javascript -->
 <script src="daily_carousel.js"></script>
-  </script>
+  </script> 
+</body>
+</html>
 
-<!--footer-->
-<div class= "footer">
-<footer>
+<!-- /* footer */ -->
+<footer id="footer">
   <small>Created by Sabrina Carlisle</small>
 </footer>
 </div>

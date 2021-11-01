@@ -4,14 +4,14 @@ body, .main_header, section, footer{
 
 }
 
-.main_header {
+#main_header {
   background: #BAB86C;
   padding: 15px;
   border: 1px solid black;
 
 } 
 
-.nav_li{
+#nav_li{
   border: 1px solid;
   list-style-type: none;
   margin: auto;
@@ -20,7 +20,7 @@ body, .main_header, section, footer{
 
 }
 
-.nav_li a{
+#nav_li a{
   text-decoration: none;
    color: whitesmoke;
 flex:0;
@@ -45,7 +45,7 @@ padding-right:20px;
     padding-right: 25px;
 }
 
-.Hero_image{
+#Mission_statement{
   border: 1px solid black;
   padding: 15px;
   height:auto;
@@ -57,14 +57,12 @@ padding-right:20px;
 .carousel_container{
   border: 1px solid black;
   padding: 15px;
-  height:auto;
-  width: auto;
   background: #778a66;
   
 
 }
 
-.footer{
+#footer{
   border: 1px solid black;
   padding: 15px;
   height:auto;
@@ -72,25 +70,32 @@ padding-right:20px;
   background: #C57B57;
 }
 
-/* carousel */
+#pollinators{
+  border: 1px solid black;
+  background-color: #BAB86C;
+}
 
-/* .carousel_wrapper{
+/* carousel */
+.carousel-wrapper {
   overflow: hidden;
   width: 90%;
-  box-sizing:border-box;
+  margin: auto;
 }
 
-.carousel_wrapper *{
-  box-sizing:border-box;
+
+.carousel-wrapper * {
+  box-sizing: border-box;
 }
 
-.carousel{
+
+.carousel {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
 
-
-.carousel_container{
+.carousel__photo {
   opacity: 0;
   position: absolute;
   top:0;
@@ -99,28 +104,34 @@ padding-right:20px;
   padding: 1rem 4rem;
   z-index: 100;
   transition: transform .5s, opacity .5s, z-index .5s;
-  
 }
- 
-.carousel_container.intial, .carousel_container.active{
+
+
+.carousel__photo.initial,
+.carousel__photo.active {
   opacity: 1;
   position: relative;
   z-index: 900;
-
 }
-.carousel_container.prev, .carousel_container.next{
+
+
+.carousel__photo.prev,
+.carousel__photo.next {
   z-index: 800;
 }
-/* move items to left */
-/* .carousel_container.prev{
-  transform: translateX(-100%);} */
-/* Translate next item to the right */
-/* .carousel__photo.next {
-  transform: translateX(100%);
-} */
 
- /* Style navigation buttons to sit in the middle, either side of the carousel. */
-/* .carousel__button--prev,
+
+.carousel__photo.prev {
+  transform: translateX(-100%);
+}
+
+
+.carousel__photo.next {
+  transform: translateX(100%);
+}
+
+
+.carousel__button--prev,
 .carousel__button--next {
   position: absolute;
   top:50%;
@@ -130,10 +141,11 @@ padding-right:20px;
   transform: translateY(-50%);
   border-radius: 50%;
   cursor: pointer; 
-  z-index: 1001;  Sit on top of everything 
-  border: 1px solid black;
-  
-}*/
+  z-index: 1001; /* Sit on top of everything */
+  border:1px solid black;
+    /* opacity: 0; 
+  transition: opacity 1s; */
+}
 
 .carousel__button--prev {
   left:0;
@@ -142,6 +154,7 @@ padding-right:20px;
 .carousel__button--next {
   right:0;
 }
+
 
 .carousel__button--prev::after,
 .carousel__button--next::after {
@@ -159,8 +172,7 @@ padding-right:20px;
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg);
-} 
-/* carousel */
+}
 
 @media only screen and (max-width: 468px){
 
@@ -204,9 +216,9 @@ padding-right:20px;
  li a:hover{
    background: #BAB86C;
    color: #C57B57;
-
-
- }
+}
+ 
+ 
   .footer{
     background: #172815;
     width: 100%;
