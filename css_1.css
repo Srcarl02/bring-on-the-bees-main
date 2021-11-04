@@ -54,13 +54,26 @@ padding-right:20px;
 
 }
 
-.carousel_container{
-  border: 1px solid black;
-  padding: 15px;
-  background: #778a66;
-  
-
+.card{
+  display: flex;
+  flex-direction: wrap;
+  background-color: #778a66;
+  box-shadow:  4px 8px rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* border: 1px solid rgb(56, 48, 48)6, 48, 48); */
+  }
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.container {
+  padding: 16px 16px;
+}
+
+img{
+  border-radius: 5px 5px 0 0;
+}
+
 
 #footer{
   border: 1px solid black;
