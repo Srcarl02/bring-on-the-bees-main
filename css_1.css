@@ -60,12 +60,28 @@ ul{
 
 
 #Mission_statement{
+  background-image: url(images/seedlings.jpg);
+  background-repeat:no-repeat;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
   border: 1px solid black;
   padding: 15px;
-  height:auto;
+  font-size: 13px;
+  /* height:auto;
   width: auto;
-  background: sienna;
+  background: sienna; */
 
+}
+#quick_tips{
+  background-color: #899d78;
+  color: black;
+}
+.w3-card-4{
+  background-color: #899d78;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
 }
  /* #quick_tips{
     display: flex;
@@ -239,7 +255,7 @@ img{
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
 
   body, section, footer 
   {
@@ -373,4 +389,4 @@ img{
     flex-wrap: wrap;
   }
 
-  }
+  } */
