@@ -17,9 +17,17 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 li a { 
   color: whitesmoke;
+}
+h2{
+  text-align: center;
+}
+
+body{
+  background-image: linear-gradient(#83B692, #D4DCFF)
 }
 .main_header{
   border-bottom: 1px solid black;
@@ -33,11 +41,11 @@ align-items: center;
 padding: 1rem 1.5rem;
 }
 
-.nav_item a{
+.nav_item a {
   color: whitesmoke;
 }
 .nav_li a{
-display: none;
+/* display: none; */
 list-style-type: none;
 text-decoration: none;
 
@@ -68,9 +76,10 @@ margin-left: 5rem;
 }
 
 .nav-link a{
+color: white;
 font-size: 1.6rem;
 font-weight: 400;
-color: white;
+
 text-align: center;
 border-bottom: 1px solid black;
 }
@@ -86,6 +95,10 @@ color: #899d78;
 list-style-type: none;
 }
 
+.nav_menu a{
+  color: white;
+}
+
 
 
 
@@ -94,16 +107,21 @@ list-style-type: none;
 #Mission_statement{
   background-image: url(images/seedlings.jpg);
   background-repeat:no-repeat;
-  height: 200px;
+  min-height: 270px;
   background-position:bottom;
   background-size: cover;
-  padding: 15px;
-  font-size: 13px;
+  padding: 70px;
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+
  
 
 }
+
+
 #quick_tips{
-  background-color: #899d78;
+  
   color: black;
 }
 .w3-card-4{
@@ -112,58 +130,35 @@ list-style-type: none;
   margin: 0 auto;
   display: grid;
 }
- /* #quick_tips{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-  }
-  #quick_tips > * {
-    flex-grow: 1;
-    flex-basis: 0;
-  } */
-.container{
 
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-   #quick_tips{
+   .quick_tips{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    align-items: center;
     margin: 0 -5px;
   }
-   #quick_tips:after{
-  content: "";
-  display: table;
-  clear: both;
-  /* align-items: center; */
- }
- 
-.card{
-  /* display: block;
   
-  width: 25%; */
-  /* display: flex;
-    flex-direction:wrap;
-  justify-content: space-between; */
-
-  padding: 0 10px;
+  
+ 
+ 
+.w3-card-4{
+ align-items: center;
+   padding: 5px;
   box-shadow:  4px 8px rgba(0,0,0,0.5);
   transition: 0.3s;
   border-radius: 5px;
   text-align: center;
   margin:auto;
-  /* border: 1px solid rgb(56, 48, 48)6, 48, 48); */
+
   }
  
 
  
 
  
-.card:hover{
+.w3-card-4:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.container {
-  padding: 16px 16px;
 }
 
 img{
@@ -172,15 +167,14 @@ img{
 
 #pollinators{
   margin-top: 10px;
-  border: 1px solid black;
-  background-color: #BAB86C;
+
 }
 #footer{
-  border: 1px solid black;
+  
   padding: 15px;
   height:auto;
   width: auto;
-  background: #C57B57;
+  /* background: #C57B57; */
 }
 
 
