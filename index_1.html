@@ -2,33 +2,43 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="css_1.css">
+  <link rel="stylesheet" href="media_css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bring on the Bees!</title>
 </head>
 <style>
- 
+
+
+
   
  
-</style>
-<body class= "flex_container">
+</style> 
+
+<body id = "flex_container">
   <!--Nav bar-->
 
-   <div class="main_header" > <header>
+   <section class="main_header" > <header> 
        <nav class= "nav_li">
-       
-       
-                    <div class="logo_container"><li> <img src=images/logo1.png height:100px width:100px/></li></div>
-                    <li><a href="index_1.html">Home</a></li>
-                    <li> <a href="">Let's talk Invasive</a></li>
-                    <li> <a href="">Which zone are you?</a></li>
-                    <li> <a href="">Butterfly Gardens</a></li>
-                    <li> <a href="">Maintaining</a></li>
-                    <input type="search" class="searchbox" placeholder="Search References" />
-                  </nav></div>
-
-               </header>
+         
+         
+      <img class="nav_logo" src=images/logo1.png height:100px width:100px/>
+                    <ul class="nav_menu">
+                    <li class="nav_item"><a href="index_1.html" class="nav-link">Home</a></li>
+                    <li class="nav_item"> <a href="" class="nav-link">Let's talk Invasive</a></li>
+                    <li class="nav_item"> <a href="" class="nav-link">Which zone are you?</a></li>
+                    <li class="nav_item"> <a href="" class="nav-link">Butterfly Gardens</a></li>
+                    <li class="nav_item"> <a href="" class="nav-link">Maintaining</a></li>
+                    </nav>
+                    <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                
+                  </div>
+               </header></section>
 
     <!--Nav bar-->
     
@@ -50,20 +60,21 @@
 
 
     <!--Hero Image-->
-    <section class="Hero_image">
-    <img src= "images/isaac.jpg" width="400" height="420">
-    <div class="Mission_statement"><p>
+    <section id="Mission_statement">
+      <h1>Bring on the Bees!</h1>
+    <!-- <img id="Hero_image" src= "images/isaac.jpg" width="400" height="420"> --></section>
+    <section class="mission_statement"><h2>My mission</h2><p>
       So, my name is Sabrina, and I'm on a mission to educate while learning something new myself. My hopes with this is
       to let people really get in to the free thinking idea of trying something new, educating themselves, making an impact,
       and taking a leap. 
     </p>
-    <h2>My mission</h2>
+    
     <p>Educate the people on the local agricultural zoning for the city of Louisville and surrounding areas. Pushing out 
         invasive species, while encouraging new and often free forming growth. Teaching garden maintenance and easy and afforabale
         beautifications. Creating a family environment for encouraging real world learning and getting our children involved and informed!
 
          Save the bees! 
-    </p></div>
+    </p>
   </section>    
 
 
@@ -85,69 +96,109 @@
  mission statement-->
 
  <!--Gallery quick tips and plants of the day-->
- <section class="daily_carousel">
-   <div class="carousel_wrap base">
-     <div class= "carousel">
-
-  <div class="carousel_container.active">
-   <img src="images/Perennials-who-like-sun/tickseed.jpg" width="100" height="60">
-  <h5>Tickseed!</h5>
-  <p>Scientific name is Coreopsis. Likes full to partial sun, there are multiple varieties with different ranges of growth.</p>
-  <small>A+ from pollinators!</small></div>
-  
-  <div class="carousel_container.next">
-  
-  <img src="images/Perennials-who-like-sun/purple-coneflower.jpg" width="100" height="100">
-  <h5> Purple Coneflower!</h5>
-  <p> Scientific name is Echinacea purpurea. Likes full sun, will grow to be 3-5 feet.</p>
-  <small> Our pollinatiors like these!</small></div>
-  
-  <div class="carousel_container ">
+ <p><h2>Quick tips and Pollinator friendly plants!</h2></p>
+ <section class="quick_tips ">
    
-  <img src="images/Perennials-who-like-sun/joe-pye-weed.jpg" width="100" height="100">
-  <h5>Joe-Pye-Weed</h5>
+   
+   
+
+  <div  class="w3-card-4" style="width:50%">
+   <img class="card.img" src="images/Perennials-who-like-sun/tickseed.jpg" style="width:100%">
+  <div class="w3-container w3-center"><h5>Tickseed!</h5>
+  <p>Scientific name is Coreopsis. Likes full to partial sun, there are multiple varieties with different ranges of growth.</p>
+  <small>A+ from pollinators!</small></div></div>
+  
+  
+  <div class="w3-card-4" style="width:50%">
+  <img class="card.img" src="images/Perennials-who-like-sun/purple-coneflower.jpg" style="width:100%">
+  <div class="w3-container w3-center"><h5> Purple Coneflower!</h5>
+  <p> Scientific name is Echinacea purpurea. Likes full sun, will grow to be 3-5 feet.</p>
+  <small> Our pollinatiors like these!</small></div></div>
+  
+  <div class="w3-card-4" style="width:50%">
+  <img class="card.img" src="images/Perennials-who-like-sun/joe-pye-weed.jpg" style="width:100%">
+  <div class="w3-container w3-center"><h5>Joe-Pye-Weed</h5>
   <p>Scientific name is Eupatorium spp. Likes full sun, will grow to be 5-9 feet.</p>
-  <small>Attracts butterflies!</small></div>
+  <small>Attracts butterflies!</small></div></div>
 
-  <div class="carousel_container">
-  <p>Feeling the soil is the most reliant way to tell if your plants need water!</p></div>
+  <div class="w3-card-4" style="width:50%">
+    <div class="w3-container w3-center" style="width:100%">
+      <h5>Tip!</h5>
+  <p>Feeling the soil is the most reliant way to tell if your plants need water!</p></div></div>
 
-  <div class="carousel_container">
-  <p>Remember to rotate your plants every few days if indoors!</p></div> 
+  <div class="w3-card-4" style="width:50%">
+    <div class="w3-container w3-center" style="width:100%">
+      <h5>Tip!</h5>
+  <p>Remember to rotate your plants every few days if indoors!</p></div></div> 
 
-  <div class="carousel_container">
-  <img src="images/Perennials-who-like-sun/purple-headed-sneezeweed.jpeg" width="100" height="60">
-    <h5>Purple-headed Sneezeweed!</h5>
+  <div class="w3-card-4" style="width:50%">
+  <img class="card.img" src="images/Perennials-who-like-sun/purple-headed-sneezeweed.jpeg" style="width:100%" >
+    <div class="w3-container w3-center"><h5>Purple-headed Sneezeweed!</h5>
     <p>Scientific name is Helenium flexuosum. Likes full sun, will grow to be 1-4 feet.</p>
-    <small>Attracts bees and butterflies!</small>
-    </div>
-
-    <div class="carousel_container.prev">
-    <img src="images/Perennials-who-like-sun/swamp-sunflower.jpeg" width="100" height="60">
-    <h5>Swamp Sunflower!</h5>
-    <p>Scientific name is Helianth. angustifolius. Likes full sun, will grow to be 5-7 feet.</h5>
-    <small>Good for pollinators!</small>
+    <small>Attracts bees and butterflies!</small></div>
   </div>
+
+    <div class="w3-card-4" style= "width:50%" >
+    <img class="card.img" src="images/Perennials-who-like-sun/swamp-sunflower.jpeg" style="width:100%" >
+    <div class="w3-container w3-center"><h5>Swamp Sunflower!</h5>
+    <p>Scientific name is Helianth. angustifolius. Likes full sun, will grow to be 5-7 feet.</h5>
+    <small>Good for pollinators!</small></div>
+    </div>
  
 
-<div class= "carousel
-_button--next"></div>
-<div class= "carousel_button--previous"></div>
+<!-- <div class= "carousel_button--next"></div>
+<div class= "carousel_button--previous"></div> -->
 
-</div>
-</div>
+
+
 
 </section>
+<section id="pollinators">
+  <h2>Meet our pollinators!</h2>
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      <img class="carousel__photo initial" src="images/bee.jpg" >
+      <img class="carousel__photo" src="images/bat.jpg">
+      <img class="carousel__photo" src="images/butterflydrinking.jpg">
+      <img class="carousel__photo" src="images/moth.jpg">
+      <img class="carousel__photo" src="images/ladybug.jpg">
+        
+      <div class="carousel__button--next"></div>
+      <div class="carousel__button--prev"></div>
+    </div>
+  </div>
+
+  <h3>Why are pollinators important?</h3>
+  <p>
+    Pollinators are responsible for majority of our food production as well as maintain our ecosystems by helping our plants reproduce!
+  </p>
+  <h3>Who are our pollinators?
+  </h3>
+  <p>
+    Our most common pollinators are bees, birds, butterflies, and bats. But we also have pollinators such as ants, beetles, flies, and moths.
+  </p>
+  <h3>
+    Mission to help our pollinators!
+  </h3>
+  <p>
+    We have to help our natural pollinators in order to get them to help us out! They're resources are steadily declining with the development of urban areas and the strong use of pesticides, 
+    most areas are also low on
+    the food map, creating really dire food deserts, making it difficult for those in low-income situations to have steady and reliable sources 
+    of food. So let's combat the growing food deserts by teaching our communitites how to feed our pollinators and how to feed themselves! 
+    Most urban areas have at least a small area with natural lighting and fresh air. So let's do our part and get involved with our ecosystem
+    and help our pollinators out and create more sustainable lifestyles for ourselves and our families.
+  </p>
+
+</section>
+<!-- link to javascript -->
+<script src="carousel.js"></script>
+  </script>
 
 </body>
 </html>
-<!-- link to javascript -->
-<script src="daily_carousel.js"></script>
-  </script>
 
-<!--footer-->
-<div class= "footer">
-<footer>
+<!-- /* footer */ -->
+<footer id="footer">
   <small>Created by Sabrina Carlisle</small>
 </footer>
 </div>
