@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/2f5189959d.js"></script>
     <title>Bring on the Bees!</title>
 </head>
 <style>
@@ -155,18 +156,33 @@
 </section>
 <section id="pollinators">
   <h2>Meet our pollinators!</h2>
-  <div class="carousel-wrapper">
-    <div class="carousel">
-      <img class="carousel__photo initial" src="images/bee.jpg" >
-      <img class="carousel__photo" src="images/bat.jpg">
-      <img class="carousel__photo" src="images/butterflydrinking.jpg">
-      <img class="carousel__photo" src="images/moth.jpg">
-      <img class="carousel__photo" src="images/ladybug.jpg">
-        
-      <div class="carousel__button--next"></div>
-      <div class="carousel__button--prev"></div>
+  <div class="carousel-container flexc">
+    <div class="left-arrow" onclick="moveLeft()">
+      <h1 class="flexc">&lt;</h1>
+    </div>
+
+    <div class="image-container flexc" style="flex-direction: column;">
+    
+      <img class="carouselImage" src="images/bee.jpg" >
+      <img class="carouselImage" src="images/bat.jpg">
+      <img class="carouselImage" src="images/butterflydrinking.jpg">
+      <img class="carouselImage" src="images/moth.jpg">
+      <img class="carouselImage" src="images/ladybug.jpg">
+        <div>
+          <ul class="dotList"></ul>
+        </div>
+      <!-- <div class="carousel__button--next"></div>
+      <div class="carousel__button--prev"></div> -->
     </div>
   </div>
+
+  <div class="right-arrow" onclick="moveRight()">
+    <h1 class="flexc">&gt;</h1>
+  </div>
+</div>
+<div class="right-arrow" onclick="moveRight()">
+  
+ 
 
   <h3>Why are pollinators important?</h3>
   <p>

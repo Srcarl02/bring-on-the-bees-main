@@ -180,7 +180,7 @@ img{
 
 
 /* carousel */
-.carousel-wrapper {
+/* .carousel-wrapper {
   overflow: hidden;
   width: 90%;
   margin: auto;
@@ -276,8 +276,52 @@ img{
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg);
+} */
+.flexc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.carousel-container .image-container {
+  margin: 5px;
+  padding: 5px;
+}
+.carousel-container .image-container img {
+  width: 500px;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+}
+.carousel-container .image-container div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.carousel-container .image-container div ul li {
+  display: inline;
+  margin: 3px;
+  color: grey;
+  cursor: pointer;
+}
+.carousel-container .left-arrow,
+.carousel-container .right-arrow {
+  cursor: pointer;
+}
+.carousel-container .left-arrow h1,
+.carousel-container .right-arrow h1 {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-container .image-container img {
+    width: 200px;
+    height: 150px;
+  }
+}
 /* @media only screen and (max-width: 600px){
 
   body, section, footer 
